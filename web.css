@@ -1,0 +1,95 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
+    
+     
+ }
+
+ .banner{
+     width: 100%;
+     height: 100vh;
+     background-image: url(./istockphoto-1325180132-612x612.jpg);
+     background-size: cover;
+     background-position: center;
+
+ }
+ /* start navigation bar */
+
+ .navbar{
+     width: 95%;
+     /* padding-top: 50px; */
+     padding: 20px 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     background-color: rgb(12, 228, 207,.4);
+     position: fixed; 
+ }
+
+
+ .name{
+     font-size: 25px;
+     cursor: pointer;
+     color: rgb(255, 255, 255);
+
+ }
+ 
+
+ .navbar ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
+ }
+
+ .navbar ul li a{
+     text-decoration: none;
+     color: white;
+     
+ }
+
+ 
+ .navbar ul li a:hover{
+     height: 10rem;
+     width: 20rem;
+     background-color: rgb(255, 255, 255);
+     padding: 13px;
+     color: rgb(0, 0, 0);
+     text-decoration: double;
+     font-size: 15px;
+     border-radius: 5px;
+     transition: .5s;
+     
+ }
+
+ /* end navigation bar */
+
+ .content{
+     width: 100%;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     text-align: center;
+     color: white;
+ }
+
+ .content h1{
+     font-size: 65px;
+     margin-top: 20px;
+     font-weight: 550;
+     
+ }
+
+ .content p{
+     margin: 20px auto;
+     font-weight: 100;
+     line-height: 20px;
+ }
+
+
+
+
